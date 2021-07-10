@@ -39,7 +39,7 @@ def printGtreeD(root):
         print(f"{child.data} ",end='')
     print()
     for child in root.children:
-        printGtree(child)
+        printGtreeD(child)
 
     return
 
